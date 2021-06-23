@@ -1,0 +1,135 @@
+.global-header_logo{
+    width: 15rem;
+    height: 5.4rem;
+    background-image: url(images/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.global-header_item{
+    padding: 0 1rem;
+}
+
+.grid{
+    display: flex;
+    grid-area: right;
+}
+
+.grid-align-spread{
+    grid-area: right;
+}
+
+span{
+    margin-right: 1rem;
+}
+
+.container{
+    float: right;
+    margin-left: 40rem;
+}
+
+.dropbtn{
+    background-color: #fff;
+    color: gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    align-content: center;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.arrow {
+    border: solid gray;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    align-content: center;
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+  .global-header{
+      background: #fff;
+      box-shadow: 0 2px 4px rgb(0 0 0 /7%);
+      padding: .5rem 0;
+      height: 5.125rem;
+      -webkit-box-align: center;
+      align-items: center;
+      width: auto;
+  }
+
+
+  .home{
+    background-color: #fff;
+    color: gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.NewAcc{
+    background-color: #fff;
+    color: gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.assistive-text {
+    position: absolute!important;
+    margin: -1px!important;
+    border: 0!important;
+    padding: 0!important;
+    width: 1px!important;
+    height: 1px!important;
+    overflow: hidden!important;
+    clip: rect(0 0 0 0)!important;
+    text-transform: none!important;
+    white-space: nowrap!important;
+}
+
+
+.person-icon{
+    width: 4.5rem;
+    height: 2.4rem;
+    background-image: url(images/Avatar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 2rem;
+}

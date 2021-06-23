@@ -1,0 +1,72 @@
+.sidemenu-container{
+    width: 20rem;
+    height: 100%;
+    background-color:#ebebeb;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.supreme-container{
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr) ;
+}
+
+.sidemenu-title{
+    margin-left: 6rem;
+    align-content: left;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.device{
+    width: 2rem;
+    position: fixed;
+}
+
+.span{
+    display: block;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.scenario{
+    font: normal normal normal 18px/15px Lato;
+    letter-spacing: 0px;
+    color: #B2B2B2;
+    opacity: 1;
+    display: block;
+    margin-bottom: .4rem;
+}
+
+.scenario-selected{
+    font: normal normal bold 36px/15px Lato;
+    letter-spacing: 0px;
+    color: #14375F;
+    opacity: 1;
+}
+
+.button-container{
+    align-content: left;
+}
+
+.btn-device{
+    height: 4rem;
+    background-color: #ebebeb;
+    width: 16.4rem;
+    border: none;
+    text-align: left;
+    margin-left: .9rem;
+}
+
+.btn-device:hover{
+    background-color: #fff;
+    border-left: #55ACEC 3px solid;
+}
+
+.ul-sidemenu{
+    list-style-type: none;
+    align-content: left;
+}
